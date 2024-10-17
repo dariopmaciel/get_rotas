@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_rotas/navegacao_comuns/send_paramsn/example_page/send_params_page1.dart';
+import 'package:get_rotas/navegacao_comuns/send_params/example_page/send_params_page1.dart';
 
 class SendParamsHomePage extends StatelessWidget {
 

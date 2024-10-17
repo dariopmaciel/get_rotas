@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:get_rotas/navegacao_comuns/back/back_home_page.dart';
 import 'package:get_rotas/navegacao_comuns/off/off_home_page.dart';
 import 'package:get_rotas/navegacao_comuns/off_all/off_all_home_page.dart';
-import 'package:get_rotas/navegacao_comuns/send_paramsn/send_params_home_page.dart';
+import 'package:get_rotas/navegacao_comuns/send_params/send_params_home_page.dart';
 import 'package:get_rotas/navegacao_comuns/to/to_home_page.dart';
 
 class NavegacaoComumHomePage extends StatelessWidget {
