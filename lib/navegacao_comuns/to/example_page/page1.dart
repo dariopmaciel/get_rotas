@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_rotas/navegacao_comuns/to/page2.dart';
+import 'package:get_rotas/navegacao_comuns/to/example_page/page2.dart';
 
 class Page1 extends StatelessWidget {
   const Page1({super.key});

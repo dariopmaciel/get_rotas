@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get_rotas/navegacao_comuns/to/page1.dart';
+import 'package:get_rotas/navegacao_comuns/to/example_page/page1.dart';
 
 class Page2 extends StatelessWidget {
 
