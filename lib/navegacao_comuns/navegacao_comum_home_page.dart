@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_rotas/navegacao_comuns/back/back_home_page.dart';
 import 'package:get_rotas/navegacao_comuns/off/off_home_page.dart';
+import 'package:get_rotas/navegacao_comuns/off_all/off_all_home_page.dart';
 import 'package:get_rotas/navegacao_comuns/to/to_home_page.dart';
 
 class NavegacaoComumHomePage extends StatelessWidget {
@@ -11,7 +12,7 @@ class NavegacaoComumHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home Navegação Comum'),
+        title: const Text('Home Page - Navegação Comum'),
       ),
       body: Center(
         child: 
@@ -37,6 +38,13 @@ class NavegacaoComumHomePage extends StatelessWidget {
                 Get.to(()=>const OffHomePage());
               },
               child: const Text("OFF (pushReplacement do Flutter)"),
+            ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Get.to(()=>const OffAllHomePage());
+              },
+              child: const Text("OffAll (PopAndRemoveUntil do Flutter)"),
             ),
           ],
         ),

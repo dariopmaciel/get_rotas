@@ -9,7 +9,7 @@ class BackHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Back Home'),
+        title: const Text('Home Page - Back '),
       ),
       body: Center(
         child: Column(

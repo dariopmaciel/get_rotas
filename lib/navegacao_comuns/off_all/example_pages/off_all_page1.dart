@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_rotas/navegacao_comuns/to/example_page/page1.dart';
+import 'package:get_rotas/navegacao_comuns/off_all/example_pages/off_all_page2.dart';
 
-class ToHomePage extends StatelessWidget {
-  const ToHomePage({super.key});
+class OffAllPage1 extends StatelessWidget {
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home Page - To (PUSH do Flutter)'),
-      ),
-      body: Center(
+  const OffAllPage1({ super.key });
+
+   @override
+   Widget build(BuildContext context) {
+       return Scaffold(
+           appBar: AppBar(title: const Text('Example OFF ALL - Page 1'),),
+           body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -20,23 +19,23 @@ class ToHomePage extends StatelessWidget {
                 Navigator.of(context).push(
                   MaterialPageRoute(
                     builder: (context) {
-                      return const Page1();
+                      return const OffAllPage2();
                     },
                   ),
                 );
               },
-              child: const Text('Go to Page com Flutter Nativo'),
+              child: const Text('Go to Page 2 com Flutter Nativo'),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Get.to(()=> const Page1());
+                Get.to(()=> const OffAllPage2());
               },
-              child: const Text('Go to Page com GetX'),
+              child: const Text('Go to Page 2 com GetX'),
             ),
           ],
         ),
       ),
-    );
+       );
   }
 }
