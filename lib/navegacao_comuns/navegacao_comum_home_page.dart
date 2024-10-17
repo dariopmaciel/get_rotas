@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_rotas/navegacao_comuns/back/back_home_page.dart';
+import 'package:get_rotas/navegacao_comuns/off/off_home_page.dart';
 import 'package:get_rotas/navegacao_comuns/to/to_home_page.dart';
 
 class NavegacaoComumHomePage extends StatelessWidget {
@@ -30,7 +31,13 @@ class NavegacaoComumHomePage extends StatelessWidget {
               },
               child: const Text("Back (POP do Flutter)"),
             ),
-            
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Get.to(const OffHomePage());
+              },
+              child: const Text("OFF (pushReplacement do Flutter)"),
+            ),
           ],
         ),
       ),

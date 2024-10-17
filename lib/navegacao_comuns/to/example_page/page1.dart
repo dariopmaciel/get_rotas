@@ -9,7 +9,7 @@ class Page1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Page1'),
+        title: const Text('Example TO - Page 1'),
       ),
       body: ElevatedButton(
         onPressed: () {

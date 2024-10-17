@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class BackPage2 extends StatelessWidget {
+class OffPage3 extends StatelessWidget {
 
-  const BackPage2({ super.key });
+  const OffPage3({ super.key });
 
    @override
    Widget build(BuildContext context) {
        return Scaffold(
-           appBar: AppBar(title: const Text('Example BACK - Page 2'),),
+           appBar: AppBar(title: const Text('Example OFF - Page 3'),),
            body: Container(),
        );
   }

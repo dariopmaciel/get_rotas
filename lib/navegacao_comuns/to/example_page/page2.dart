@@ -8,7 +8,7 @@ class Page2 extends StatelessWidget {
    @override
    Widget build(BuildContext context) {
        return Scaffold(
-           appBar: AppBar(title: const Text('Page 2'),),
+           appBar: AppBar(title: const Text('Example TO - Page 2'),),
            body: ElevatedButton(
               onPressed: () {
                 Navigator.of(context).push(
