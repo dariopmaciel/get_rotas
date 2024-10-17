@@ -20,21 +20,21 @@ class NavegacaoComumHomePage extends StatelessWidget {
           children: [
             ElevatedButton(
               onPressed: () {
-                Get.to(const ToHomePage());
+                Get.to(()=>const ToHomePage());
               },
               child: const Text("TO (PUSH do Flutter)"),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Get.to(const BackHomePage());
+                Get.to(()=>const BackHomePage());
               },
               child: const Text("Back (POP do Flutter)"),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Get.to(const OffHomePage());
+                Get.to(()=>const OffHomePage());
               },
               child: const Text("OFF (pushReplacement do Flutter)"),
             ),

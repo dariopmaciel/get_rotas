@@ -30,7 +30,7 @@ class OffPage2 extends StatelessWidget {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Get.off(const OffPage3());
+                Get.off(()=>const OffPage3());
               },
               child: const Text('Go to Page 3 com GetX'),
             ),
