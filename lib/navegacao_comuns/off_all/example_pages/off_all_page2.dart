@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_rotas/navegacao_comuns/off_all/example_pages/off_all_page3.dart';
+import 'package:get_rotas/navegacao_comuns/off_all/off_all_home_page.dart';
 
 class OffAllPage2 extends StatelessWidget {
   const OffAllPage2({super.key});
@@ -46,7 +47,7 @@ class OffAllPage2 extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 // Get.to(() => const OffAllPage3());
-                Get.offAll(()=>const OffAllPage3());
+                Get.offAll(()=>const OffAllPage3(),predicate: ModalRoute.withName('/OffAllHomePage'),);
               },
               child: const Text('Go to Page 3 com GetX'),
             ),
