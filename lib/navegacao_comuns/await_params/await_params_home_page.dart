@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_rotas/await_params/example_page/await_params_page1.dart';
+import 'package:get_rotas/navegacao_comuns/await_params/example_page/await_params_page1.dart';
 
 class AwaitParamsHomePage extends StatelessWidget {
 

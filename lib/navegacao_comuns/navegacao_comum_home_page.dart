@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_rotas/await_params/await_params_home_page.dart';
-
+import 'package:get_rotas/navegacao_comuns/await_params/await_params_home_page.dart';
 import 'package:get_rotas/navegacao_comuns/back/back_home_page.dart';
 import 'package:get_rotas/navegacao_comuns/off/off_home_page.dart';
 import 'package:get_rotas/navegacao_comuns/off_all/off_all_home_page.dart';
